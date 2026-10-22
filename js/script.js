@@ -40,7 +40,7 @@
   document.addEventListener("keydown", function (e) { if (e.key === "Escape") closeMenu(); });
 
   /* Typing effect */
-  var phrases = ["Cloud Engineer", "AWS Enthusiast", "Java Developer", "Android Developer"];
+  var phrases = ["AWS (EC2, S3, IAM, VPC)", "Java Programming", "Android App Development", "React.js & Node.js", "Cloud Automation & DevOps"];
   var typed = $("#typed");
   var pi = 0, ci = 0, deleting = false;
   var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
